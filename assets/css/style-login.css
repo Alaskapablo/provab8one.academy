@@ -1,0 +1,160 @@
+body{
+    background: #142159;
+}
+
+
+/* block login */
+.block-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.block-login__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 432px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 48px 43px;
+}
+
+/* Login info */
+.login-info__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+.login-info__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #555555;
+}
+
+
+/* Login form email */
+.login-form{
+    width: 336px;
+    margin-top: 32px;
+}
+.block-form__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.005em;
+    color: #333333;
+}
+.block-form{
+    width: 336px;
+}
+.block-form input{
+    width: 336px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.block-form__input{
+    width: 100%;
+    padding: 12px 16px;
+} 
+input::placeholder{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #555555;
+}
+
+/* login form pass */
+
+.pass-form{
+    width: 336px;
+    margin-top: 16px;
+}
+
+
+/* Checkbox login */
+.login__checkbox{
+    display: flex;
+    justify-content: space-between;
+    width: 336px;
+    margin-top: 16px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+}
+.checkbox-text{
+    margin-left: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+input:checked{
+    background: red;
+}
+.forget-pass__link{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.005em;
+    text-decoration-line: underline;
+    color: #425DC7;
+}
+.button-forget__pass{
+    color: #425DC7;
+}
+
+/* login button */
+.login__button{
+    margin-top: 33px;
+    width: 336px;
+    height: 48px;
+    background: #425DC7;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.login-button:hover{
+    background: #6e7fc0;
+}
+.login-button__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* Responsividade Login */
+

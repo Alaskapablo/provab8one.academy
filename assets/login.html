@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style-login.css">
+        <link rel="stylesheet" href="./css/login-responsive.css">
+        <title>Login Prova B8one.academy</title>
+        <script src="./js/login.js"></script>
+    </head>
+</head>
+<body>
+    <div class="block-login">
+        <form id="form" method="post" class="block-login__info" action="./dashboard.html">
+            <span class="login-info__title">
+                Olá, tudo bem? 👋
+            </span>
+            <p class="login-info__text">
+                Vamos decolar para grandes dias de vendas.
+            </p>
+            <div class="login-form">
+                <span class="block-form__title">
+                    Seu E-mail
+                </span>
+            </div>
+            <div class="block-form">
+                <input class="block-form__input" type="email" id="email" placeholder="exemplo@email.com"> 
+            </div>
+            <div class="pass-form">
+                <span class="block-form__title">
+                    Sua Senha
+                </span>
+            </div>
+            <div class="block-form">
+                <input class="block-form__input" type="password" id="password" placeholder= "Digite sua senha">
+            </div>
+            <div class="login__checkbox">
+                <div class="checkbox">
+                    <input type="checkbox" name="Manter conectado" checked="">
+                    <span class="checkbox-text">Manter Conectado</span>
+                </div>
+                <span class="forget-pass__link">
+                    <a href="#" id="forget-password-link'">
+                        Esqueci minha senha
+                    </a>
+                </span>
+            </div>
+            <button type="submit" value="login" onclick="validate()" class="login__button">
+               <span class="login-button__text">Entrar</span>
+            </button>
+        </form>
+    </div> 
+</body>
+</html>

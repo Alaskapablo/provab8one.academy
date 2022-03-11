@@ -1,0 +1,49 @@
+@media (max-width: 483px){ 
+
+    .login-info__text{
+      width: 296px;
+      text-align: center;
+    }
+    .login-info__title{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333333;
+    }
+    .block-login{
+        padding: 106px 16px;
+        margin: 0px;
+    }
+    .block-login__info{
+        padding: 32px 16px 16px 16px;
+        width: 328px;
+        height: 428px;
+    }
+    .login-form{
+        width: min(100%, 285px);
+    }
+    .block-form{
+        display: flex;
+        width: 296px;
+    }
+    .block-form__input{
+        margin: 0px;
+        height: 48px;
+
+    }
+
+
+    .login__checkbox{
+        display: flex;
+        justify-content: start;
+    }
+    .forget-pass__link{
+        margin-left: 8px;
+    }
+    .login__button{
+    width: 296px;
+    }
+}

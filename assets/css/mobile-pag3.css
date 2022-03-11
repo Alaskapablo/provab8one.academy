@@ -1,0 +1,374 @@
+@media (max-width: 670px){
+    body{
+        width: 100%;
+    }
+    .hamburguer{
+        display: flex;
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+    }
+    .header-hamburguer{
+        display: flex;
+    }
+    .header-avatar{
+        margin-left: 16px;
+    }
+    .header-my-company{
+        width: auto;
+    }
+    .sidebar{
+        display: none;
+        position: absolute;
+        background: #FFFFFF;
+    }
+    .block-right-profile{
+        margin-left: 184px;
+    }
+
+    /* main dashboard */
+    .dash-release{
+        width: 606px;
+    }
+    .dash-info__button{
+        display: none;
+    }
+    /* best sells */
+    .best-sells{
+        height: 1150px;
+    }
+
+    /* header-product */
+   .header-product{
+    display: none;
+}
+
+
+    /* main dashboard */
+    .main-dashboard{
+        height: 2400px;
+    }
+    /* canvas */
+    .canvas{
+        width: 540px;
+        height: 220px;
+    }
+    /* product area */
+    .product-area{
+        display: block;
+        width: 552px;
+        height: 96px;
+    }
+    .block-product{
+        display: block;
+        padding-top: 16px;
+    }
+    .block-product__description{
+        margin-left: 16px;
+    }
+    .number-product__block{
+        display: none;
+    }
+    .number-code__block{
+        display: flex;
+        width: 280px;
+        margin-top: 10px;
+    }
+    .product__info{
+        display: flex;
+        width: 524px;
+    }
+    .product-category__description{
+        display: none;
+    }
+    .product-description{
+        margin-left: 42px;
+    }
+    .product-value__description{
+        margin-left: 42px;
+    }
+    .valor-test{
+        margin-left: 16px;
+    }
+    .img-product__info{
+        display: flex;
+    }
+    /* block report */
+    .block-report{
+        width: 536px;
+    }
+    /* report main */
+    .report-main{
+        display: block;
+        height: 830px;
+        border-radius: 8px;
+    }
+    /* report-stats */
+    .block-show__dropdown{
+        display: none;
+    }
+    /* ranking container */
+    .ranking-container{
+        margin-left: 145px;
+    }
+
+    /* best sells */
+    .best-sells{
+        margin-top: 16px;
+        height: 1284px;
+    }
+
+    /* amount */
+    .amount-products{
+        display: block;
+        margin-top: 24px;
+    }
+    .amount-block__title{
+        display: block;
+        margin-left: 155px;
+    }
+    /* pagination */
+    .pagination{
+        display: flex;
+    }
+    .pagination-list{
+        display: flex;
+        margin-left: 55px;
+        margin-top: 16px;
+    }
+
+
+}
+
+
+@media (max-width: 400px){
+    body{
+        width: 100%;
+    }
+    /* header */
+    .hamburguer{
+        display: flex;
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+    }
+    .header-hamburguer{
+        display: flex;
+    }
+    .header-avatar{
+        margin-left: 16px;
+    }
+    .header-my-company{
+        width: auto;
+    }
+    .block-right-profile{
+        margin-left: 0px;
+    }
+    .sidebar{
+        display: none;
+        position: absolute;
+        background: #FFFFFF;
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        margin-left: 56px;
+    }
+
+    /* nav profile */
+    .avatar-profile__name{
+        display: none;
+    }
+
+    /* dropdown */
+    .dropdown-list__notification{
+        margin-left: -222px;
+    }
+    .dropdown-list__avatar{
+        margin-left: -180px;
+    }
+    .dropdown-help{
+        margin-top: 4px;
+    }
+    .dropdown-notification{
+        margin-top: 4px;
+        margin-left: -243px;
+    }
+    .dropdown-avatar{
+        width: 180px;
+        margin-left: -126px;
+
+    }
+
+    /* main dashboard */
+    .main-dashboard{
+        height: 2445px;
+    }
+
+    /* MAIN */
+    .dash-release{
+        display: flex;
+        width: 366px;
+        height: 72px;
+        margin: 16px;
+    }
+    .dash-info__text{
+        width: 241px;
+        height: 36px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+    }
+    .dash-info__button{
+        display: none;
+    }
+
+    /* block-resume */
+    .block-resume__title{
+        margin: 16px;
+    }
+    .block-resume__list{
+        overflow-x: scroll;
+        margin: 16px 16px 8px 16px;
+    }
+    .block-resume__item{
+        margin-bottom: 10px;
+    }
+    .block-resume__description{
+        margin-left: 16px;
+    }
+    .block-resume__description a{
+        display: flex;
+        margin-left: 16px;
+    }
+
+    /* Block resume */
+
+    /* Block report */
+    .block-report{
+        width: 300px;
+    }
+    .block-report__intro{
+        width: 294px;
+    }
+    .block-show__dropdown{
+        display: none;
+    }
+    /* canvas */
+    .canvas{
+        width: 350px;
+        height: 148px;
+        margin-left: -16px;
+    }
+
+    .report-main{
+        display: block;
+        width: 376px;
+        height: 780px;
+        margin: 12px;
+        border-radius: 8px;
+    }
+
+    .graph-total__list{
+        display: block;
+    }
+    .ranking-container{
+        margin: 16px 24px;
+        border: none;
+        width: 345px;
+        margin-left: 10px;
+        background: #FFFFFF;
+        border: 2px solid #F1F2F9;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+    /* best sells */
+
+    .best-sells{
+        height: 1327px;
+        margin: 16px;
+        margin-top: 16px;
+    }
+    .sells-info__img{
+        margin-left: 16px;
+    }
+   .block-best-sells{
+        margin: 0px 0px 0px 16px;
+    }
+
+
+
+
+    /* header-product */
+   .header-product{
+        display: none;
+    }
+
+
+
+    /* product area */
+    .product-area{
+        display: inline;
+        width: 296px;
+        height: 96px;
+    }
+    .block-product{
+        display: block;
+        padding-top: 16px;
+    }
+    .block-product:nth-child(even){
+        background: #F1F2F9;
+        border-radius: 8px;
+    }
+    .number-product__block{
+        display: none;
+    }
+    .number-code__block{
+        display: flex;
+        width: 280px;
+        margin-top: 10px;
+    }
+    .product__info{
+        display: flex;
+        width: 280px;
+    }
+    .product-category__description{
+        display: none;
+    }
+    .product-description{
+        margin-left: 42px;
+    }
+    .product-value__description{
+        margin-left: 42px;
+    }
+    .valor-test{
+        margin-left: 16px;
+    }
+    .img-product__info{
+        display: flex;
+    }
+
+
+    /* amount */
+    .amount-products{
+        display: block;
+        margin-top: 24px;
+    }
+    .amount-block__title{
+        display: block;
+        margin-left: 34px;
+    }
+    /* pagination */
+    .pagination{
+        display: flex;
+    }
+    .pagination-list{
+        display: flex;
+        margin-left: 55px;
+        margin-top: 16px;
+    }
+
+}
